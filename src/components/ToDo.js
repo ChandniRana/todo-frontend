@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { BiEdit } from 'react-icons/bi';
-import { AiFillDelete } from 'react-icons/ai';
 
 const ToDo = ({ text, updateMode, deleteToDo }) => {
   const [completed, setCompleted] = useState(false);
